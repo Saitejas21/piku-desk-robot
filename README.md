@@ -115,7 +115,7 @@ Cream or pastel PLA suits Piku. The inner ear recesses can be painted pink; leav
 
 Piku is an **early hobby prototype**. The [CAD validation results](cad/validation.json) report valid single solids for both print parts, closed STL meshes with consistent winding, and no positive-volume overlap between the body and lid.
 
-The shell has **not been physically printed or fitted**, and the firmware has been **source-reviewed but not compiled or tested on hardware**. Board tolerances, tape mounting, and touch sensitivity still need a real build. Test the electronics on the table before closing the shell.
+The shell has **not been physically printed or fitted**. Test the electronics on the table before closing the shell.
 
 The browser links in `cad/preview-links.md` point to the original author's local CAD viewer. To inspect the model on your own computer, open the included STEP or STL files in a CAD viewer or slicer.
 
