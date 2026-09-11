@@ -107,7 +107,7 @@ Cream or pastel PLA suits Piku. The inner ear recesses can be painted pink; leav
 
 ## Tinker with Piku
 
-- **Faces:** [`piku_faces.h`](firmware/Piku/piku_faces.h) holds the nine monochrome bitmaps.
+- **Faces:** [`piku_faces.h`](firmware/Piku/piku_faces.h) holds the nine monochrome bitmaps. Hello looks straight ahead; curious pupils move toward the viewer's left or right inside fixed eye shapes. Edit [`tools/generate_faces.py`](tools/generate_faces.py) and run `python tools/generate_faces.py` with Pillow 10.1+ installed to regenerate the bitmaps, expression sheet, and CAD face data.
 - **Behaviour:** [`Piku.ino`](firmware/Piku/Piku.ino) controls blinking, touch reactions, and the sleep timer.
 - **Shell:** The [`cad` folder](cad) includes STEP files and editable [build123d](https://github.com/gumyr/build123d) Python sources. The assembly reads [`piku_face_pixels.json`](cad/piku_face_pixels.json) for its face preview.
 
