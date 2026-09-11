@@ -1,0 +1,45 @@
+{
+  "piku_body": {
+    "valid": true,
+    "solid_count": 1,
+    "bbox_mm": [
+      54.90611674718364,
+      63.90934394508267,
+      32.000000100014574
+    ],
+    "volume_mm3": 20621.43,
+    "mesh": {
+      "triangles": 25286,
+      "boundary_or_nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "signed_volume_mm3": 20617.35
+    }
+  },
+  "piku_back": {
+    "valid": true,
+    "solid_count": 1,
+    "bbox_mm": [
+      48.0,
+      46.000000000000014,
+      4.5
+    ],
+    "volume_mm3": 3793.97,
+    "mesh": {
+      "triangles": 2780,
+      "boundary_or_nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "signed_volume_mm3": 3792.08
+    }
+  },
+  "assembly": {
+    "body_lid_overlap_mm3": 0,
+    "lid_clearance_per_side_mm": 0.3000000000000007,
+    "touch_patch_centre_mm": 0.8000000000000007,
+    "touch_patch_minimum_at_recess_edge_mm": 0.682,
+    "shell_wall_mm": 2,
+    "front_wall_mm": 3,
+    "pilot_diameter_mm": 1.7,
+    "lid_hole_diameter_mm": 2.4,
+    "physical_print_and_fit_tested": false
+  }
+}
