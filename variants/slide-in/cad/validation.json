@@ -1,0 +1,90 @@
+{
+  "physical_fit_tested": false,
+  "snap_force_or_strength_tested": false,
+  "module_geometry": "nominal listed footprint; PCB thickness, glass, headers and component extents assumed",
+  "battery_pack_fit_or_electrical_design_validated": false,
+  "piku_body": {
+    "valid": true,
+    "solids": 1,
+    "bbox_mm": [
+      54.90611674718364,
+      63.90934394508267,
+      32.000000100014574
+    ],
+    "volume_mm3": 20956.663433296486,
+    "mesh": {
+      "triangles": 25606,
+      "boundary_or_nonmanifold_edges": 0,
+      "inconsistent_winding": 0
+    }
+  },
+  "piku_back": {
+    "valid": true,
+    "solids": 1,
+    "bbox_mm": [
+      48.0,
+      46.000000000000014,
+      6.199999999999999
+    ],
+    "volume_mm3": 3806.9053448230497,
+    "mesh": {
+      "triangles": 2812,
+      "boundary_or_nonmanifold_edges": 0,
+      "inconsistent_winding": 0
+    }
+  },
+  "piku_oled_fit_test": {
+    "valid": true,
+    "solids": 1,
+    "bbox_mm": [
+      35.0,
+      34.000000000000846,
+      11.149999999999999
+    ],
+    "volume_mm3": 2566.196111750501,
+    "mesh": {
+      "triangles": 928,
+      "boundary_or_nonmanifold_edges": 0,
+      "inconsistent_winding": 0
+    }
+  },
+  "piku_touch_fit_test": {
+    "valid": true,
+    "solids": 1,
+    "bbox_mm": [
+      18.4,
+      21.0,
+      3.3000000000000007
+    ],
+    "volume_mm3": 579.7075247508302,
+    "mesh": {
+      "triangles": 180,
+      "boundary_or_nonmanifold_edges": 0,
+      "inconsistent_winding": 0
+    }
+  },
+  "body_lid_overlap_mm3": 0,
+  "seated_module_collisions_mm3": {
+    "nominal_OLED_PCB_27x27_thickness_assumed_1p2": 0,
+    "nominal_OLED_glass_envelope_verify_actual": 0,
+    "nominal_OLED_header_keepout": 0,
+    "nominal_TTP223_PCB_11x15_thickness_assumed_1p0": 0,
+    "nominal_TTP223_component_keepout": 0,
+    "nominal_TTP223_header_keepout": 0
+  },
+  "module_pair_overlap_mm3": 0,
+  "touch_insertion_sweep_collisions_mm3": 0,
+  "touch_insertion_vs_installed_OLED_mm3": 0,
+  "oled_insertion_rigid_collisions_mm3": 0,
+  "clearances_mm": {
+    "OLED_side": 0.25,
+    "OLED_axial": 0.25,
+    "OLED_latch_overlap": 0.4,
+    "touch_side": 0.25,
+    "touch_thickness_total": 0.30000000000000004,
+    "touch_roof_nominal_gap": 0.14999999999999858,
+    "touch_lid_end_clearance": 0.3,
+    "crown_centre_wall": 0.8
+  },
+  "exterior_bbox_unchanged": true
+}

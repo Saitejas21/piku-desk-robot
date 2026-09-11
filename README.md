@@ -8,7 +8,7 @@
 
 USB powered · Touch reactive · About 6.4 cm tall
 
-[Build guide](Piku-build-guide.docx) · [Download the project](https://github.com/Saitejas21/piku-desk-robot/archive/refs/heads/main.zip) · [Print files](cad)
+[Build guide](Piku-build-guide.docx) · [Download the project](https://github.com/Saitejas21/piku-desk-robot/archive/refs/heads/main.zip) · [Print files](cad) · [Push-in mounts](variants/slide-in)
 
 <sub>CAD preview of the proposed build. The first physical build is still to be tested.</sub>
 
@@ -104,6 +104,14 @@ Measure your actual boards before printing. Align the lit OLED behind the openin
 Cream or pastel PLA suits Piku. The inner ear recesses can be painted pink; leave the crown touch patch unpainted.
 
 **Print only the body and back.** [`piku_assembly.step`](cad/piku_assembly.step) is an assembled CAD preview whose screen and face pixels are illustrative geometry.
+
+## Optional: push-in module mounts
+
+The [slide-in prototype](variants/slide-in) adds four releasable clips around the OLED PCB and two rails beneath the crown for the red touch sensor. Push the OLED in from the open back, then slide the touch board into place; the matching lid keeps the touch board from sliding out.
+
+Its [instructions and print files](variants/slide-in/README.md) include small fit-test prints, STEP files, editable sources, and an interior preview. Use the prototype's PETG print guidance and matching body/lid pair. The holders use nominal board dimensions, and the snap fit still needs a physical test. The original build guide above covers the tape-mounted shell.
+
+Thinking about a rechargeable Piku? The same page explains the [optional battery-power arrangement](variants/slide-in/README.md#could-piku-run-from-a-battery). A battery and charging board have not been selected or fitted yet.
 
 ## Tinker with Piku
 
