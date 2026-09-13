@@ -8,7 +8,7 @@
 
 USB powered · Touch reactive · About 6.4 cm tall
 
-[Build guide](Piku-build-guide.docx) · [Download the project](https://github.com/Saitejas21/piku-desk-robot/archive/refs/heads/main.zip) · [Print files](cad) · [Push-in mounts](variants/slide-in)
+[Build guide](Piku-build-guide.docx) · [Download the project](https://github.com/Saitejas21/piku-desk-robot/archive/refs/heads/main.zip) · [Print files](cad) · [Push-in mounts](variants/slide-in) · [Otter variant](variants/otter)
 
 <sub>CAD preview of the proposed build. The first physical build is still to be tested.</sub>
 
@@ -112,6 +112,16 @@ The [slide-in prototype](variants/slide-in) adds four releasable clips around th
 Its [instructions and print files](variants/slide-in/README.md) include small fit-test prints, STEP files, editable sources, and an interior preview. Use the prototype's PETG print guidance and matching body/lid pair. The holders use nominal board dimensions, and the snap fit still needs a physical test. The original build guide above covers the tape-mounted shell.
 
 Thinking about a rechargeable Piku? The same page explains the [optional battery-power arrangement](variants/slide-in/README.md#could-piku-run-from-a-battery). A battery and charging board have not been selected or fitted yet.
+
+## Piku the little otter 🦦
+
+Prefer a little otter? The separate [otter variant](variants/otter) gives Piku a smooth seated body, small ears, resting paws, a cream belly and a low tail. It uses the same three boards and full OLED face, in a shell about **71 × 66 × 85 mm** (width × depth × height).
+
+<a href="variants/otter"><img src="variants/otter/Piku-otter-preview.png" alt="Piku's seated otter variant with a full OLED face, little paws and a cream belly; actual CAD with suggested paint colours" width="420"></a>
+
+Its [standalone guide and files](variants/otter/README.md) include clip-in or tape OLED mounting, a sliding touch-sensor holder, a removable C3 tray, a rear USB opening, fit-test prints, STEP/STL files, editable CAD and firmware. Print one body option, the matching rear cover and the tray. The bunny files and guide above remain unchanged.
+
+The otter's modeled clearances and mesh checks pass, but it has not been physically printed or fitted. Start with the small fit tests and follow its own print guidance: **the otter body needs exterior supports**. Colours in the preview are suggested paint; battery and charging hardware have not been fitted.
 
 ## Tinker with Piku
 

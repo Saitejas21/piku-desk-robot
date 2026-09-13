@@ -1,0 +1,214 @@
+{
+  "physical_fit_tested": false,
+  "clip_force_or_life_tested": false,
+  "battery_and_charger_fitted": false,
+  "dimensions_note": "Nominal footprints; PCB thickness, glass alignment, socket and header envelopes require measurement.",
+  "parts": {
+    "otter_body": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        70.98911331327331,
+        85.00000020976485,
+        65.98000019999999
+      ],
+      "print_min_z_mm": 1.1686097468332243e-15,
+      "volume_mm3": 58919.013012070514,
+      "stl": {
+        "triangles": 57036,
+        "boundary_or_nonmanifold_edges": 0,
+        "inconsistent_winding": 0,
+        "signed_volume_mm3": 58813.021,
+        "sha256": "b2e3e3633215474ddf93372fcce34111b0ff86cff4c8661f425292e886c362b7"
+      }
+    },
+    "otter_back": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        64.0000002,
+        81.29777417058301,
+        10.700005560000006
+      ],
+      "print_min_z_mm": -5.559999997015075e-06,
+      "volume_mm3": 8083.654898865074,
+      "stl": {
+        "triangles": 4396,
+        "boundary_or_nonmanifold_edges": 0,
+        "inconsistent_winding": 0,
+        "signed_volume_mm3": 8079.803,
+        "sha256": "9e1f4d2e9c9432f75b3c92012df64afa396cdc44a067b79891c7f03467fa916f"
+      }
+    },
+    "otter_c3_tray": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        28.0,
+        28.200000000000003,
+        3.6000000000000014
+      ],
+      "print_min_z_mm": 0.0,
+      "volume_mm3": 1269.7599999999998,
+      "stl": {
+        "triangles": 116,
+        "boundary_or_nonmanifold_edges": 0,
+        "inconsistent_winding": 0,
+        "signed_volume_mm3": 1269.76,
+        "sha256": "6e016a9de79255c4837164fa6193bc452c4306c95c757f2730d60e7142db5b58"
+      }
+    },
+    "otter_body_tape": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        70.98911331327331,
+        85.00000020976485,
+        65.98000019999999
+      ],
+      "print_min_z_mm": 1.1686097468332243e-15,
+      "volume_mm3": 58812.87930122341,
+      "stl": {
+        "triangles": 56458,
+        "boundary_or_nonmanifold_edges": 0,
+        "inconsistent_winding": 0,
+        "signed_volume_mm3": 58710.478,
+        "sha256": "770823f894ed7419d683ad97c1fe8d86f7902c5d2d41f52700b08daef6ee6d2c"
+      }
+    },
+    "otter_oled_fit_test": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        35.0000002,
+        34.00000020000084,
+        12.350000199999998
+      ],
+      "print_min_z_mm": -1e-07,
+      "volume_mm3": 2895.110454098561,
+      "stl": {
+        "triangles": 1772,
+        "boundary_or_nonmanifold_edges": 0,
+        "inconsistent_winding": 0,
+        "signed_volume_mm3": 2894.948,
+        "sha256": "2c48ab1ea35b8efa4cf6734de6838d4cd0b82e0c51010381a482c562a6bfd1a3"
+      }
+    },
+    "otter_touch_fit_test": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        18.4,
+        26.0,
+        3.299999999999997
+      ],
+      "print_min_z_mm": 0.0,
+      "volume_mm3": 688.9359999999988,
+      "stl": {
+        "triangles": 68,
+        "boundary_or_nonmanifold_edges": 0,
+        "inconsistent_winding": 0,
+        "signed_volume_mm3": 688.936,
+        "sha256": "d97e9f12f4d403c29eb1d8d3da53cb503d9c40acd12b2a5a035da5173546c248"
+      }
+    }
+  },
+  "assembled_part_collisions": [],
+  "overall_raw_bbox_mm": [
+    70.98911331327331,
+    85.00000020976485,
+    65.98000019999999
+  ],
+  "closed_main_body_depth_without_tail_mm": 51.0,
+  "usb_plug_vs_shell_overlap_mm3": 0,
+  "wire_corridors_vs_parts_mm3": [
+    0,
+    0
+  ],
+  "OLED_insertion_except_compliant_clips_mm3": 0,
+  "touch_insertion_mm3": 0,
+  "C3_loaded_tray_insertion_mm3": 0,
+  "nominal_active_display_visibility": [
+    {
+      "horizontal_deg": 0,
+      "vertical_deg": 0,
+      "shell_obstruction_mm3": 0
+    },
+    {
+      "horizontal_deg": -25,
+      "vertical_deg": 0,
+      "shell_obstruction_mm3": 0
+    },
+    {
+      "horizontal_deg": 25,
+      "vertical_deg": 0,
+      "shell_obstruction_mm3": 0
+    },
+    {
+      "horizontal_deg": 0,
+      "vertical_deg": -15,
+      "shell_obstruction_mm3": 0
+    },
+    {
+      "horizontal_deg": 0,
+      "vertical_deg": 15,
+      "shell_obstruction_mm3": 0
+    }
+  ],
+  "cavity_connected_solids": 1,
+  "interfaces_mm": {
+    "head_wall": 2.4,
+    "crown_wall_centre": 0.8,
+    "touch_roof_gap": 0.15,
+    "OLED_side_clearance": 0.25,
+    "OLED_axial_clearance": 0.25,
+    "OLED_clip_overlap": 0.4,
+    "touch_slot_total_clearance": 0.30000000000000004,
+    "tray_side_clearance": 0.3,
+    "tray_slot_total_clearance": 0.3,
+    "lid_lip_side_clearance": 0.3,
+    "touch_rear_stop_clearance": 0.3,
+    "tray_rear_stop_clearance": 0.3,
+    "USB_opening": [
+      16,
+      14
+    ],
+    "nominal_USB_plug_cross_section": [
+      13,
+      6
+    ]
+  },
+  "screw_centres_xy_mm": [
+    [
+      -26.8,
+      64.0
+    ],
+    [
+      26.8,
+      64.0
+    ],
+    [
+      -19.5,
+      15.0
+    ],
+    [
+      19.5,
+      15.0
+    ]
+  ],
+  "screws": {
+    "count": 4,
+    "pilot_diameter_mm": 1.7,
+    "lid_clearance_diameter_mm": 2.4,
+    "suggested": "M2 x 6 mm self-tapping"
+  },
+  "reserve_space": {
+    "envelope_mm": [
+      24,
+      6,
+      20
+    ],
+    "selected_battery": false,
+    "overlap_with_parts_or_wire_lanes_mm3": 0
+  }
+}
