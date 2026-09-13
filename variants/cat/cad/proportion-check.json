@@ -1,0 +1,53 @@
+{
+  "proposal_only": true,
+  "physical_fit_tested": false,
+  "original_CAD_replaced": false,
+  "unchanged_common_source": true,
+  "unchanged_limb_sources": [
+    "foreleg",
+    "hind_hock",
+    "paw_creases"
+  ],
+  "unchanged_part_sha256": {
+    "cat_back.py": "c885db7cf9aaae2384448424fe17c222f2230407696457a7c13fbc839ad004bf",
+    "cat_back.step": "69eb8b79186738db9d52867c8165fdf138f93e3ec667bf98a278d636fc3f6c24",
+    "cat_back.stl": "7932ccce838762c0264b521163b119fdda0b5167ebcee1d31acdd971d226f5cc",
+    "cat_c3_tray.py": "90ba5e0aa1442a3886ced469ef426daa61b1a17527dfb3fc56ef752131b0c31c",
+    "cat_c3_tray.step": "6767cce4a4cfa8149357bb8035c806ce9e51cc14791a8b62582c7946ab1b6b91",
+    "cat_c3_tray.stl": "6e016a9de79255c4837164fa6193bc452c4306c95c757f2730d60e7142db5b58",
+    "cat_oled_fit_test.py": "518baeec1ebf016d192015de88e26dee7ffaf9e3f33e42c241280fdc6f3e3eb5",
+    "cat_oled_fit_test.step": "f82b996c430a987b71a4647f09dca70cc57475a6e58dc0a34db73fe80517e397",
+    "cat_oled_fit_test.stl": "93c9363661eedfd1eb0ec263635f0733048e81c3a77011149aef40d37c685d21",
+    "cat_touch_fit_test.py": "b7c861c04af97fd588864721cdc2362aa6e6bd41def2e34fc8fefad6ab636480",
+    "cat_touch_fit_test.step": "6eaa69a7ac4ece4272fc9c828d064c63910ed161f361e857a5628c291ad13c13",
+    "cat_touch_fit_test.stl": "d97e9f12f4d403c29eb1d8d3da53cb503d9c40acd12b2a5a035da5173546c248"
+  },
+  "old_free_cavity_volume_mm3": 145716.86008187282,
+  "new_free_cavity_volume_mm3": 145716.86008187282,
+  "free_cavity_symmetric_difference_mm3": 0,
+  "new_material_in_previous_free_cavity_mm3": 0,
+  "central_touch_crown_symmetric_difference_mm3": 0,
+  "head_envelope": {
+    "definition": "Closed outer skull and display-rim envelope before cavity subtraction, excluding ears and torso.",
+    "current_mm3": 133223.79315328668,
+    "proposed_mm3": 122547.753768056,
+    "reduction_percent": 8.013613133614106,
+    "current_width_mm": 76.6621648038059,
+    "proposed_width_mm": 70.0000002
+  },
+  "torso_form": {
+    "definition": "Height of the sculpted torso envelope; excludes unchanged paws and haunches. Visible chest also depends on head overlap.",
+    "current_height_mm": 50.071473841266794,
+    "proposed_height_mm": 53.26212931826699,
+    "height_increase_percent": 6.372202038859487
+  },
+  "overall_raw_bbox_mm": [
+    82.53440205493102,
+    98.30000020000008,
+    55.012530214756
+  ],
+  "current_files_hash_check": {
+    "result": "unchanged",
+    "files": 50
+  }
+}

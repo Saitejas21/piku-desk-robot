@@ -1,0 +1,4 @@
+# Preserve generated CAD and image bytes; review geometry in a CAD viewer.
+*.step binary
+*.stl binary
+*.png binary

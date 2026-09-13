@@ -8,7 +8,7 @@
 
 USB powered · Touch reactive · About 6.4 cm tall
 
-[Build guide](Piku-build-guide.docx) · [Download the project](https://github.com/Saitejas21/piku-desk-robot/archive/refs/heads/main.zip) · [Print files](cad) · [Push-in mounts](variants/slide-in) · [Otter variant](variants/otter)
+[Build guide](Piku-build-guide.docx) · [Download the project](https://github.com/Saitejas21/piku-desk-robot/archive/refs/heads/main.zip) · [Print files](cad) · [Push-in mounts](variants/slide-in) · [Otter variant](variants/otter) · [Cat variant](variants/cat)
 
 <sub>CAD preview of the proposed build. The first physical build is still to be tested.</sub>
 
@@ -122,6 +122,16 @@ Prefer a little otter? The separate [otter variant](variants/otter) gives Piku a
 Its [standalone guide and files](variants/otter/README.md) include clip-in or tape OLED mounting, a sliding touch-sensor holder, a removable C3 tray, a rear USB opening, fit-test prints, STEP/STL files, editable CAD and firmware. Print one body option, the matching rear cover and the tray. The bunny files and guide above remain unchanged.
 
 The otter's modeled clearances and mesh checks pass, but it has not been physically printed or fitted. Start with the small fit tests and follow its own print guidance: **the otter body needs exterior supports**. Colours in the preview are suggested paint; battery and charging hardware have not been fitted.
+
+## Piku the little cat 🐱
+
+The [cat variant](variants/cat) gives Piku pointed ears, a seated body, short forelegs with tiny toes and a curled tail. Its refined proportions pair a smaller outer head with a slightly taller chest, while keeping the same three boards and whole OLED face. The shell is about **82.5 × 55.0 × 98.3 mm** (width × depth × height).
+
+<a href="variants/cat"><img src="variants/cat/Piku-cat-preview.png" alt="Piku's refined cat variant, painted grey and cream with pink inner ears and a glowing cyan OLED face" width="440"></a>
+
+Its [build guide and files](variants/cat/README.md) include clip-in or tape OLED mounting, a sliding touch holder, removable C3 tray, rear USB access, fit coupons, STEP/STL files, editable CAD and firmware. The [individual image](variants/cat/Piku-cat-preview.png) is a render of the actual refined CAD with suggested paint.
+
+CAD mesh and nominal clearance checks pass; physical printing and fit are still untested. The cat body needs exterior supports. Follow its own print and assembly instructions, starting with the small fit tests.
 
 ## Tinker with Piku
 
